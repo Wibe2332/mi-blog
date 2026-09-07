@@ -15,16 +15,14 @@
     </header>
 
     <main>
+    {% for post in posts %}
         <article>
-            <h2>Mi primer post</h2>
-            <p>Este es el contenido de mi primer artículo del blog.</p>
+            <h2>{{ post[1] }}</h2>
+            <p>{{ post[2] }}</p>
+            <small>{{ post[3] }}</small>
         </article>
-
-        <article>
-            <h2>Otro post interesante</h2>
-            <p>Aquí va otro artículo, para ver varios juntos.</p>
-        </article>
-    </main>
+    {% endfor %}
+</main>
 
     <footer>
         <p>© 2026 Wilberth. Todos los derechos reservados.</p>
