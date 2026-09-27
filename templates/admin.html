@@ -13,8 +13,20 @@
     </header>
 
     <main>
-        <p>¡Bienvenido al panel, {{ current_user.usuario }}!</p>
+        <section class="admin-form">
+            <h2 id="form-titulo">Crear nuevo post</h2>
+            <input type="hidden" id="post-id">
+            <input type="text" id="input-titulo" placeholder="Título del post">
+            <textarea id="input-contenido" placeholder="Contenido del post" rows="5"></textarea>
+            <button id="btn-guardar">Guardar post</button>
+            <button id="btn-cancelar" style="display: none;">Cancelar edición</button>
+        </section>
+
+        <section id="lista-posts">
+            <!-- Aquí JavaScript va a insertar los posts -->
+        </section>
     </main>
 
+    <script src="/static/js/admin.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ from werkzeug.security import generate_password_hash
 from database import conectar
 
 usuario = "wilberth"
-password = "tu_contraseña_aqui"
+password = "admin123"
 
 password_hash = generate_password_hash(password)
 

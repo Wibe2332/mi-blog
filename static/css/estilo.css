@@ -66,3 +66,44 @@ footer {
 .error {
     color: red;
 }
+
+
+
+
+
+.admin-form {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-form input, .admin-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+.admin-form button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.post-admin {
+    background: white;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-admin button {
+    margin-right: 8px;
+    cursor: pointer;
+}
